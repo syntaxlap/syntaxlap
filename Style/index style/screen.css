@@ -17,14 +17,28 @@
         height: 40px;
         font-size: 15px;
     }
+    .nav {
+        display: none;
+    }
+    .head-container {
+        padding: 30px;
+    }
 }
 
 
 /* For medium screens (tablets) */
 
-@media screen and (min-width: 601px) and (max-width: 1024px) {}
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .nav-mobile {
+        display: none;
+    }
+}
 
 
 /* For large screens (desktops) */
 
-@media screen and (min-width: 1025px) {}
+@media screen and (min-width: 1025px) {
+    .nav-mobile {
+        display: none;
+    }
+}
