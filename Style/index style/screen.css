@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
     .home-img {
         position: relative;
-        top: -150px;
+        top: -55px;
         width: 290px;
         height: 290px;
     }
@@ -33,6 +33,10 @@
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     .nav-mobile {
         display: none;
+        .home-img{
+        position: relative;
+        top: -40px;
+        }
     }
 }
 
