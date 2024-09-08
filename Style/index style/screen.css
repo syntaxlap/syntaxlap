@@ -1,4 +1,23 @@
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+    .home-img {
+        width: 290px;
+        height: 290px;
+    }
+    .home-text h1 {
+        font-size: 40px;
+    }
+    .home-text h4 {
+        font-size: 20px;
+    }
+    .home-text p {
+        font-size: 20px;
+    }
+    .home-text button {
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+    }
+}
 
 
 /* For medium screens (tablets) */
