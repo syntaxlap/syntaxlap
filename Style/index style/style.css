@@ -231,8 +231,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0c64a3;
-    border: black 2px solid;
+    background-color: #072098;
     flex-wrap: wrap;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -308,8 +307,8 @@ body {
 }
 
 .card button:hover {
-    color: #0B2F9F;
-    background-color: #55d7ce;
+    color: #1240c9;
+    background-color: #3fb1a9;
 }
 
 .about {
