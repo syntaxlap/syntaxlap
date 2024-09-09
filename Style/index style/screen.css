@@ -1,4 +1,7 @@
 @media screen and (max-width: 600px) {
+    .home {
+        height: 70vh;
+    }
     .home-img {
         position: relative;
         top: -80px;
@@ -27,6 +30,26 @@
     }
     .nav-mobile {
         display: none;
+    }
+    .about-container h2 {
+        color: white;
+        font-size: 30px;
+        font-weight: 900;
+        margin-bottom: 15px;
+    }
+    .about-container h3 {
+        color: white;
+        font-size: 20px;
+        font-weight: 900;
+        margin-bottom: 15px;
+    }
+    .about-container p,
+    .about-container p span,
+    .about-container ul li {
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 15px;
     }
 }
 
