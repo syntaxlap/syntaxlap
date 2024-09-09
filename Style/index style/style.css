@@ -200,3 +200,19 @@
         .exitnav:hover {
             color: #55d7ce;
         }
+        
+        .home-img-nav {
+            margin-top: 50px;
+            margin-left: 200px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .home-img-nav img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+        }
