@@ -304,6 +304,7 @@ body {
     border: none;
     padding: 5px;
     font-weight: 700;
+    border-radius: 2px;
 }
 
 .card button:hover {
@@ -354,4 +355,24 @@ footer {
     color: white;
     padding: 10px;
     text-align: center;
+}
+
+#ReadMore {
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: #46e0d6;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-weight: 700;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+#ReadMore:hover {
+    color: #0B2F9F;
+    background-color: #55d7ce;
 }

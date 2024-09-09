@@ -31,6 +31,10 @@
     .nav-mobile {
         display: none;
     }
+    .about-container {
+        height: 421px;
+        overflow: hidden;
+    }
     .about-container h2 {
         color: white;
         font-size: 30px;
@@ -51,6 +55,9 @@
         font-weight: 400;
         margin-bottom: 15px;
     }
+    #ReadMore {
+        display: block;
+    }
 }
 
 
@@ -68,6 +75,9 @@
         width: 270px;
         height: 270px;
     }
+    #ReadMore {
+        display: none;
+    }
 }
 
 
@@ -78,6 +88,9 @@
         display: none;
     }
     .mobileNavLogo {
+        display: none;
+    }
+    #ReadMore {
         display: none;
     }
 }
