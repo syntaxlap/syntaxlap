@@ -5,7 +5,7 @@ const home = document.querySelector(".home");
 mobileNavLogo.addEventListener("click", () => {
     nav_mobile.style.display = "block";
     mobileNavLogo.style.display = "none";
-    home.style.filter = "blur(10px)"
+    home.style.filter = "blur(20px)"
 })
 exitnav.addEventListener("click", () => {
     nav_mobile.style.display = "none";
