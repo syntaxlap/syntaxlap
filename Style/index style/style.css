@@ -151,12 +151,12 @@
         }
         
         .nav-mobile {
-            margin-top: 250px;
+            margin-top: 400px;
             display: flex;
             justify-content: center;
             padding: 10px;
-            height: 31vh;
-            width: 180px;
+            height: 50vh;
+            width: 200px;
             background-color: rgba(21, 181, 187, 0.617);
             border-radius: 10px;
             -webkit-border-radius: 10px;
