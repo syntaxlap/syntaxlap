@@ -18,7 +18,8 @@
         }
         
         .head-container a,
-        .head-container ul {
+        .head-container ul,
+        .nav-mobile a {
             list-style: none;
             color: white;
             text-decoration: none;
@@ -151,12 +152,12 @@
         }
         
         .nav-mobile {
-            margin-top: 400px;
+            position: absolute;
             display: flex;
             justify-content: center;
             padding: 10px;
-            height: 50vh;
-            width: 200px;
+            height: 90vh;
+            width: 100%;
             background-color: rgba(21, 181, 187, 0.617);
             border-radius: 10px;
             -webkit-border-radius: 10px;
