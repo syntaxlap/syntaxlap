@@ -12,3 +12,6 @@ exitnav.addEventListener("click", () => {
     mobileNavLogo.style.display = "block";
     home.style.filter = "blur(0px)"
 })
+setInterval(() => {
+
+}, 1000);
