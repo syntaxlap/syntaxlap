@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
     .home-img {
         position: relative;
-        top: -55px;
+        top: -80px;
         width: 290px;
         height: 290px;
     }
@@ -25,6 +25,9 @@
     .head-container {
         padding: 30px;
     }
+    .nav-mobile {
+        display: none;
+    }
 }
 
 
@@ -33,10 +36,9 @@
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     .nav-mobile {
         display: none;
-        .home-img{
-        position: relative;
-        top: -40px;
-        }
+    }
+    .mobileNavLogo {
+        display: none;
     }
 }
 
@@ -45,6 +47,9 @@
 
 @media screen and (min-width: 1025px) {
     .nav-mobile {
+        display: none;
+    }
+    .mobileNavLogo {
         display: none;
     }
 }
