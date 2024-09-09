@@ -200,8 +200,7 @@
         .exitnav:hover {
             color: #55d7ce;
         }
-        
-        .home-img-nav {
+        /* .home-img-nav {
             margin-top: 50px;
             margin-left: 200px;
             width: 100px;
@@ -215,4 +214,4 @@
             -webkit-border-radius: 50%;
             -moz-border-radius: 50%;
             -ms-border-radius: 50%;
-        }
+        } */
