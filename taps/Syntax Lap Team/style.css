@@ -35,13 +35,13 @@ body {
 .head-container .logo a {
     color: white;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .head-container .nav a {
     color: white;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     margin: 0px 10px;
 }
 
@@ -64,4 +64,68 @@ body {
     font-weight: 700;
     font-size: 1.2rem;
     margin: 0px 5px;
+}
+
+.nav-mobile {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(21, 181, 187, 0.617);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    z-index: 100;
+}
+
+.nav-mobile-container ul {
+    margin-top: 15px;
+}
+
+.nav-mobile-container ul li {
+    margin-top: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px 170px;
+    border: rgba(0, 45, 159, 0.761) 2px solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+}
+
+.nav-mobile-container li a {
+    color: white;
+    font-weight: 700;
+}
+
+.nav-mobile-container li:hover {
+    background-color: #0032d5;
+}
+
+.mobileNavLogo {
+    color: white;
+    font-size: 30px;
+}
+
+.mobileNavLogo:hover {
+    color: #0032d5;
+    cursor: pointer;
+}
+
+.exitnav {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.exitnav:hover {
+    color: #0032d5;
 }
