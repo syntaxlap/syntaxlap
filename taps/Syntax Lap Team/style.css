@@ -70,6 +70,7 @@ body {
     position: absolute;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 10px;
     height: 90vh;
     width: 100%;
@@ -90,7 +91,7 @@ body {
     margin-top: 10px;
     font-size: 25px;
     cursor: pointer;
-    padding: 5px 170px;
+    padding: 5px;
     border: rgba(0, 45, 159, 0.761) 2px solid;
     border-radius: 10px;
     -webkit-border-radius: 10px;
