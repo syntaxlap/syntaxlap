@@ -1,0 +1,29 @@
+@media screen and (max-width: 622px) {
+    .nav {
+        display: none;
+    }
+    .nav-mobile {
+        display: none;
+    }
+    .logo h1 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 623px) and (max-width: 1024px) {
+    .mobileNavLogo {
+        display: none;
+    }
+    .nav-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .mobileNavLogo {
+        display: none;
+    }
+    .nav-mobile {
+        display: none;
+    }
+}
