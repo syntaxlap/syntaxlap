@@ -58,6 +58,9 @@
     #ReadMore {
         display: block;
     }
+        .courses .card {
+        height: 80%;
+    }
 }
 
 
