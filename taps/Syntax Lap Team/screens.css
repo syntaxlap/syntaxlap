@@ -9,7 +9,10 @@
         font-size: 16px;
     }
     .home-container {
-        height: 80vh;
+        height: 70vh;
+    }
+    .home-container h1 {
+        font-size: 25px;
     }
 }
 
