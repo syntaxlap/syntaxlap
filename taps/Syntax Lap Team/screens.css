@@ -8,6 +8,9 @@
     .logo h1 {
         font-size: 16px;
     }
+    .home-container {
+        height: 80vh;
+    }
 }
 
 @media screen and (min-width: 623px) and (max-width: 1024px) {
