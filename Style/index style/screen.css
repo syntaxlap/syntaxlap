@@ -61,6 +61,12 @@
     .courses .card {
         height: 70%;
     }
+     .home-img {
+        margin-top: 10px;
+    }
+    .home-container {
+        gap: 10px;
+    }
 }
 
 
