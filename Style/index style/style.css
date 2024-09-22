@@ -460,6 +460,9 @@ footer {
 
 .home-social {
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .home-social a {
